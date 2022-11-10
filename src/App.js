@@ -3,14 +3,15 @@ import { useState } from 'react';
 import Title from './components/topLevel/Title';
 import Container from './components/topLevel/Container';
 import Overlay from './components/topLevel/Overlay';
+import Store from './components/Store';
 
 function App() {
 	return (
-		<>
-			{showOverlay ? <Overlay /> : null}
+		<Store>
+			<Overlay />
 			<Title />
 			<Container />
-		</>
+		</Store>
 	);
 }
 
