@@ -10,7 +10,7 @@ const Overlay = () => {
 
 	return state.overlay ? (
 		<div className="overlay">
-			<Contact />
+			{state.activeElement}
 			<Title />
 		</div>
 	) : null;

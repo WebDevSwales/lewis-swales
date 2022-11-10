@@ -3,6 +3,7 @@
 .titleWrapper {
 	position: fixed;
 	top: 0;
+	pointer-events: none;
 }
 
 .title {

@@ -1,0 +1,13 @@
+.calenderGrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.day {
+	height: 100px;
+	border: 2px solid black;
+}
+
+.day:hover {
+	background-color: aquamarine;
+}

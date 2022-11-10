@@ -5,11 +5,7 @@
 	position: fixed;
 	top: 0px;
 	backdrop-filter: saturate(180%) blur(20px);
-	opacity: 0;
+
 	transition: 1s;
 	z-index: 50;
-}
-
-.overlay:hover {
-	opacity: 1;
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const initialState = {
 	overlay: false,
-	currentwindow: null,
+	activeElement: null,
 };
 
 export const Context = React.createContext();

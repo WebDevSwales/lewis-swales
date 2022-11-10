@@ -1,10 +1,12 @@
 import React from 'react';
 import './Contact.css';
+import Close from '../tools/Close';
 
 const Contact = () => {
 	return (
 		<>
-			<div className="contact">
+			<div className="holder">
+				<Close />
 				<p className="name">Lewis Swales</p>
 				<p className="location">Location: Scotland</p>
 				<p className="experience">
