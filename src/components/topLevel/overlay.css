@@ -1,0 +1,15 @@
+.overlay {
+	background-color: rgba(59, 61, 63, 0.322);
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0px;
+	backdrop-filter: saturate(180%) blur(20px);
+	opacity: 0;
+	transition: 1s;
+	z-index: 50;
+}
+
+.overlay:hover {
+	opacity: 1;
+}

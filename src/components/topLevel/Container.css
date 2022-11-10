@@ -1,0 +1,10 @@
+.wrapper {
+	position: absolute;
+	transform-style: preserve-3d;
+	transform: translateX(600px) translateY(200px) rotateX(45deg) rotateY(20deg)
+		skewX(-20deg) skewY(0deg);
+	display: grid;
+	grid-template-columns: repeat(3, 0fr);
+	gap: 20px;
+	grid-auto-rows: minmax(100px, auto);
+}

@@ -1,0 +1,21 @@
+.contact {
+	position: relative;
+	top: 50vh;
+	left: 50vw;
+	height: 700px;
+	width: 700px;
+	border: 3px solid black;
+	border-radius: 10px;
+	padding: 20px;
+	transform: translate(-50%, -50%);
+	background-color: rgba(240, 248, 255, 0.178);
+	font-size: 1.2rem;
+}
+
+.name {
+	font-size: 3rem;
+	text-align: center;
+}
+
+.location {
+}

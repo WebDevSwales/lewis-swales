@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+.titleWrapper {
+	position: fixed;
+	top: 0;
+}
+
+.title {
+	font-family: rajdhani;
+	padding-left: 50px;
+	line-height: 1px;
+	z-index: 100;
+}
+
+.head {
+	padding-top: 50px;
+	font-size: 5em;
+}
+
+.underhead {
+	font-size: 4rem;
+}
+
+.subhead {
+	font-size: 2rem;
+}

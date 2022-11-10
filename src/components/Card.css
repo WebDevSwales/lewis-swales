@@ -1,9 +1,0 @@
-card {
-	color: red;
-	height: 200px;
-	width: 300px;
-	border-radius: 10px;
-	margin: 100px;
-	background-color: blue;
-	transform: rotateX(60deg) rotateY(0deg) rotateZ(-45deg);
-}
